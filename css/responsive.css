@@ -1,0 +1,115 @@
+/* ===========================
+LAPTOP
+=========================== */
+
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+}
+
+/* ===========================
+TABLET
+=========================== */
+
+@media (max-width: 992px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    flex-direction: column;
+    display: none;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-grid,
+  .services-grid,
+  .why-grid,
+  .stores-grid,
+  .stats-grid,
+  .testimonials-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===========================
+MOBILE
+=========================== */
+
+@media (max-width: 768px) {
+  section {
+    padding: 70px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .primary-btn,
+  .outline-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+/* ===========================
+SMALL MOBILE
+=========================== */
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brands {
+    gap: 10px;
+  }
+
+  .brand-pill {
+    font-size: 0.85rem;
+    padding: 8px 14px;
+  }
+}
