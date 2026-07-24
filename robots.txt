@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sv-eye-studio.vercel.app/sitemap.xml
